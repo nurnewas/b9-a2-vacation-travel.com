@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>vacationtravel.com</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <!-- header Section -->
@@ -14,7 +15,7 @@
             <div class="nav-left-side"><h3><img src="Images/Group 40071 (2).png" alt=""> Vacation <span class="text-color">Travel.com</span></h3>
             </div>
             <div class="nav-right-side">
-                <ul>
+                <!-- <ul> <li><a href="#"> <i class="fa-solid fa-bars"></i></a></li> -->
                     <li><a href="#"><span class="text-color">Home</span></a></li>
                     <li><a href="#">Packages</a></li>
                     <li><a href="#">Testimonial</a></li>
@@ -33,6 +34,37 @@
         <!-- header Section -->
         <!-- main Section -->
     <main>
+        <!-- Banner Sectiob -->
+        <div class="container-banner">
+        <h1>Explore Your Travel</h1>
+        <p class="banner-discription">Discover Amazing Destinations, Create Lasting Memories, and Embark on the Adventure of a Lifetime with Vacation Travel. Join us in exploring the world's wonders!</p>
+         <div class="input-in-banner">
+            <input type="text" class="input-box" placeholder="Where go">
+            <!-- <input type="text" class="input-box">
+            <input type="text" class="input-box" > -->
+
+            <label for="destination" class="input-box-label"></label>
+            <select id="destination" name="destination">
+                <option value="Select Type">Select Type</option>
+                <option value="tokyo">India</option>
+                <option value="Maldives">Maldives</option>
+            </select>
+            <label for="time" class="input-box-label"></label>
+            <select id="time" name="time">
+                <option value="When">When</option>
+                <option value="This week">This week</option>
+                <option value="The Next Week">The Next Week</option>
+            </select>
+                
+            
+
+            <!-- <input type="button" value="Find Now" class="input-button"> -->
+            <button class="input-button"><i class="fa-light fa-magnifying-glass"></i> Find Now</button>
+            <!-- <i class="fa-light fa-magnifying-glass"></i> -->
+         </div>
+
+        </div>
+        <!-- Banner Sectiob -->
     </main>
         <!-- main Section -->
         <!-- footer Section -->

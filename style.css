@@ -53,5 +53,75 @@ body {
     text-align: center;
     font-size: 1.1rem;
     font-weight: 400;
+}
 
+/* Banner section */
+.container-banner {
+  margin-top: 50px;
+   border: 1px solid red;
+   background-color: #424247;
+   background-image: url(Images/Group13.png);
+   border-radius: 15px;
+   background-size: cover; 
+   background-position: center;
+}
+
+h1{
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+    text-align: center;
+    
+}
+.banner-discription {
+    color: #FFF;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    margin: 20px 270px;
+}
+
+.input-in-banner {
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;
+    margin: 0px 185px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    margin-bottom: 106px;
+}
+.input-box {
+    height: 52px;
+    width: 174px;
+    border-radius: 10px;
+    border: none;
+}
+.input-button {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    border: none;
+    background: #FF5400;
+}
+.input-box-label{
+    height: 52px;
+    width:174px;
+    font-size: 1rem;
+}
+
+
+
+
+
+
+
+
+
+/* Responsive */
+@media screen (max-width:600px) {
+    .nav-right-side {
+        
+    }
 }
