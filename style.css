@@ -435,6 +435,47 @@ background: url(Images/Group\ 39.png), lightgray 50% / cover no-repeat;
     backdrop-filter: blur(2.5px);
     margin: 56px 56px 56px 535px;
 }
+/* Deal Input */
+.deal-icon{
+    color: #FF5400;
+    margin: 20px 40px;
+    gap: 20px;
+}
+.deals-head {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin: 20px 40px;
+    text-align: left;
+}
+.deals-para {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 20px 40px;
+}
+.deals-price {
+    color: #FF5400;
+    font-size: 20px;
+    font-weight: 800;
+    margin: 20px 40px;
+}
+.deals-btn {
+    width: 150px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    transition: 0.4s;
+    cursor: pointer;
+    margin: 40px 40px;
+
+}
+.deals-btn:hover {
+    background-color: #6a2604;
+    color: #FFF;
+}
+
 /* Video Section */
 .new-section {
     width: 610px;
