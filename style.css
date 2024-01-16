@@ -259,6 +259,7 @@ h2 {
 }
 .customer-review {
     display: flex;
+    gap: 20px;
 }
 .review-para{
     text-align: center;
@@ -294,6 +295,7 @@ h2 {
 /* Why Choose Us */
 .choose-ue {
     margin: 100px;
+
 }
 .choocse-us-header {
     color: #131318;
@@ -391,8 +393,8 @@ h2 {
     background-image: url(Images/Group\ 39.png);
     width: 1170px;
     height: 500px;
-border-radius: 16px;
-background: url(Images/Group\ 39.png), lightgray 50% / cover no-repeat;
+    border-radius: 16px;
+    background: url(Images/Group\ 39.png), lightgray 50% / cover no-repeat;
 }
 .sec-deal  {
     margin: 24px 0px;
@@ -476,6 +478,21 @@ background: url(Images/Group\ 39.png), lightgray 50% / cover no-repeat;
     color: #FFF;
 }
 
+.deals-btn-botom {
+    width: 200px;
+    height: 60px;
+    border-radius: 8px;
+    background: #FF5400;
+    transition: 0.4s;
+    cursor: pointer;
+    margin: 50px 536px;
+
+}
+.deals-btn-botom:hover {
+    background-color: #6a2604;
+    color: #FFF;
+}
+
 /* Video Section */
 .new-section {
     width: 610px;
@@ -530,42 +547,80 @@ background: url(Images/Group\ 39.png), lightgray 50% / cover no-repeat;
 }
 
 
-
-/* Responsive For Phone*/
-@media screen and (max-width:600px) {
-    header , main {
-        margin: 0px;
-        padding: 0px;
-    }
-.input-in-banner {
-        flex-direction: column;
-    }
-.tour-section{
-        flex-direction: column;
-}  
-.tour-sectoin-text {
-    margin-left: 20px;
+@media only screen and (max-width: 600px) {
+header, main {
+    margin: 10px 20px; 
 }
-/* Destination Section */
+
+.nav-left-side {
+    font-size: 1.5rem; 
+}
+
+.nav-right-side {
+    display: none; 
+}
+.container-banner {
+    margin-top: 30px; 
+}
+
+h1 {
+    font-size: 3rem; 
+}
+.destination-header {
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+.destination-para {
+    margin: 10px 20px;
+    text-align: center;
+}
+
+.banner-discription {
+    margin: 20px 10px; 
+}
+
+.input-in-banner {
+    margin: 0 10px;
+}
+
+.input-box-label,.input-box,.input-button {
+    width: 100%;
+}
+
+.tour-section {
+    flex-direction: column; 
+    margin-top: 50px; 
+}
+.newsletter{
+    flex-direction: column;
+    
+}
+
+
+#footer {
+    padding-top: 50px;
+}
+
+.footer-icons {
+    margin-top: 16px;
+}
 .destination-grid-img {
-    grid-template-columns: repeat(1 , 1fr);
-    grid-template-rows: repeat(7,1fr);
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+
     gap: 10px;
     border-radius: 10px;
+    justify-content: space-around;
+    padding: auto;
+    height: 100vh;
+    text-align: center;
+    position: relative;
 }
-.destination {
-    display: flex;
-}
-/*  Customer's Review */
 .customer {
-    display: flex;
-    flex-direction: row;
+    margin-top: 100px;
 }
-.customer-review-box {
-    display: grid;
-    grid-template-columns: repeat(1,1fr);
+.customer-review {
+    flex-direction: column;
+    gap: 10px;
 }
-/* Why Choose Us */
- }
- /*  Why Choose Us  */
+}
