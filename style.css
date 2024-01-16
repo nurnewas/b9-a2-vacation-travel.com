@@ -1,6 +1,12 @@
 /* font-family Mulish */
   @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900;1000&display=swap');
-body {
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+  body {
     margin: 10px 130px;
     max-width: 1440px;
     box-sizing: border-box;
@@ -21,8 +27,10 @@ body {
     display: flex;
     font-size: 2rem;
     font-weight: 800;
-    align-items: center; 
     color: #131318;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
 }
 .text-color {
     color: #FF5400;
@@ -31,7 +39,6 @@ body {
     width: 3rem;
     height: 3.5rem;
     align-items: center;
-    text-align: center;
     display: inline block;
 }
 .nav-right-side {
@@ -57,18 +64,18 @@ body {
 
 /* Banner section */
 .container-banner {
-  margin-top: 50px;
-   border: 1px solid red;
-   background-color: #424247;
-   background-image: url(Images/Group13.png);
-   border-radius: 15px;
-   background-size: cover; 
-   background-position: center;
+    margin-top: 50px;
+    border: 1px solid red;
+    background-color: #424247;
+    background-image: url(Images/Group13.png);
+    border-radius: 15px;
+    background-size: cover; 
+    background-position: center;
 }
 
 h1{
     color: #FFF;
-    font-size: 64px;
+    font-size: 4rem;
     font-weight: 800;
     text-align: center;
     
@@ -83,10 +90,11 @@ h1{
 }
 
 .input-in-banner {
-    display: inline-flex;
+    display: flex;
     padding: 16px;
     align-items: flex-start;
-    gap: 24px;
+    align-items: center;
+    gap: 1.5rem;
     margin: 0px 185px;
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.30);
@@ -104,24 +112,61 @@ h1{
     border-radius: 8px;
     border: none;
     background: #FF5400;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.input-button:hover{
+    color: #FFF;
+    background: #481902;
+
 }
 .input-box-label{
-    height: 52px;
     width:174px;
+    display: inline-block;
+    height: 52px;
     font-size: 1rem;
 }
 
+/* tour-section" */
+.tour-section {
+    display: flex;
+    margin-top: 100px;
+}
+h2 {
+    color: #131318;
+    text-align: center;
+    font-size: 2rem;;
+    font-weight: 800;
+}
+.tour-inline {
+    margin-top: 24px;
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+.tour-bottom {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.tour-image {
+    margin: 5%;
+}
 
+/* Responsive For Phone*/
 
-
-
-
-
-
-
-/* Responsive */
-@media screen (max-width:600px) {
-    .nav-right-side {
+/* @media screen and (max-width:600px) {
+    body {
+        margin: 0px 0px;
         
     }
-}
+    
+    }
+    .input-in-banner {
+        flex-direction: column;
+    }
+    .tour-section{
+        flex-direction: column;
+}  */
