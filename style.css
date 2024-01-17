@@ -102,6 +102,8 @@ h1{
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.30);
     margin-bottom: 106px;
+    width: 700px;
+
 }
 .input-box {
     height: 52px;
@@ -617,7 +619,10 @@ h1 {
 }
 
 .input-in-banner {
-    margin: 0 10px;
+    margin: 0px auto;
+    height: 288px;
+    width: 288px;
+
 }
 
 .input-box-label,.input-box,.input-button {
@@ -632,12 +637,22 @@ h1 {
 .newsletter{
     flex-direction: column;
     margin: 0px;
+    margin-bottom: 0px;
 }
-.news-letter-img {
+.text-off {
+    width: 214.023px;
+    height: 79.268px;
+    margin: 175px 2px 0.74px 100px;
+    border-radius: 16px; 
+}
+
+.news-letter-img img {
     width: 335px;
     height: 300px;
     margin: 20px 0px;
-    padding: auto;
+    padding-left: 30px;
+    margin: 10px 50px;
+
 }
 .input-newslatter {
     width: 288px;
@@ -653,14 +668,18 @@ h1 {
 .input-button-letter {
     width: 288px;
     height: 52px;
-    border-radius: 8px;
-    background: #FF5400;
-    transition: 0.3s;
     margin: 5px 20px;
 }
-.input-button-letter:hover {
+.newslatter-anqure {
     color: #FFF;
-    background: #6a2706fb;
+    font-size: 15px;
+    padding: 20px 10px 0px 20px;
+    color: #FFF;
+    margin-top: 20px;
+}
+.news-letter-para{
+    font-size: 15px;
+    padding: 20px 20px 30px 60px;
 }
 /*  News Letter */
 .footer-line{
@@ -860,6 +879,5 @@ h1 {
     border-radius: 8px;
     margin: 50px 100px;
 }
-
 
 }
