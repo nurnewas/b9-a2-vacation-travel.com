@@ -352,8 +352,38 @@ h2 {
     border-radius: 16px;
     border: 1px solid #FF5400;
 }
-.news-letter-img img {
+/* .news-letter-img img {
     object-fit: cover;
+} */
+.news-letter-img {
+    width: 500px;
+    height: 422px;
+    border-radius: 16px;
+    object-fit: contain;
+}
+.text-off {
+    position: absolute;
+    background-color: #FF5400;
+    width: 324px;
+    height: 120px;
+    transform: rotate(-19.628deg);
+    margin: 200px 0.48px 0.14px 327px;
+    border-radius: 16px; 
+}
+.newslatter-anqure {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 400;
+    text-decoration: none;
+    padding: 50px 20px 0px 40px;
+    color: #FFF;
+    margin-top: 20px;
+}
+.news-letter-para{
+    color: #FFF;    
+    font-size: 32px;
+    font-weight: 800;
+    padding: 20px 20px 30px 40px;
 }
 .input-newslatter {
     display: block;
@@ -379,6 +409,7 @@ h2 {
     color: #FFF;
     background: #6a2706fb;
 }
+/*  News Letter */
 /* Deals & Discounts */
 .deal-section {
     margin: 100px 0px;
@@ -597,20 +628,46 @@ h1 {
     flex-direction: column; 
     margin-top: 50px; 
 }
+/* News letter */
 .newsletter{
     flex-direction: column;
-    
+    margin: 0px;
 }
-
-
-#footer {
-    padding-top: 50px;
+.news-letter-img {
+    width: 335px;
+    height: 300px;
+    margin: 20px 0px;
+    padding: auto;
 }
+.input-newslatter {
+    width: 288px;
+    height: 52px;
+    margin: 20px 20px;
+    padding: 20px;
+}
+.newsl-letter-input {
+    width: 335px;
+    height: 353px;
+    margin: 30px 10px 20px 10px;
+}
+.input-button-letter {
+    width: 288px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    transition: 0.3s;
+    margin: 5px 20px;
+}
+.input-button-letter:hover {
+    color: #FFF;
+    background: #6a2706fb;
+}
+/*  News Letter */
 .footer-line{
     width: 60%; 
     text-align: center; 
     justify-content: center;
-     margin: 50% auto;
+    margin: 50% auto;
 }
 .footer-icons {
     margin-top: 16px;
@@ -618,7 +675,6 @@ h1 {
 .destination-grid-img {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-
     gap: 10px;
     border-radius: 10px;
     justify-content: space-around;
@@ -635,6 +691,9 @@ h1 {
     gap: 10px;
 }
 #footer {
+    width: 350px;
+    height: 309px;
+    padding-top: 50px;
     max-width: 600px;
     margin-top: 110px;
     width: 1440px;
@@ -649,7 +708,7 @@ h1 {
     font-size: 12px;
     font-weight: 400;
     line-height: 16px
-    margin:5px 30px
+    margin:5px 30px;
 }
 .footer-line{
     width: 70%; 
