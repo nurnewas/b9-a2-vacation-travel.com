@@ -173,7 +173,7 @@ h2 {
     font-weight: 800;
     }
 .destination-para {
-    margin: 20px 390px;
+    margin: 20px 100px;
     text-align: center;
 }
 .destination-grid-img img {
@@ -703,13 +703,6 @@ h1 {
 .destination-grid-img {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    gap: 10px;
-    border-radius: 10px;
-    justify-content: space-around;
-    padding: auto;
-    height: 100vh;
-    text-align: center;
-    position: relative;
 }
 .customer {
     margin-top: 100px;
@@ -908,7 +901,9 @@ h1 {
     width: 335px;
     font-size: 14px;
 }
-
+.newsletter {
+    margin: 0px;
+}
 .new-con-head {
     font-size: 20px;
     line-height: 20px;
